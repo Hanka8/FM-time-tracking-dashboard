@@ -77,6 +77,10 @@
   left: 4px;
 }
 
+.title {
+  font-weight: 500;
+}
+
 .container__nav__top p {
   font-weight: 400;
   font-size: calc(15rem/16);
@@ -108,11 +112,9 @@
   background: transparent;
   color: var(--pale-blue);
   font-size: var(--font);
-  font-weight: 400;
   line-height: calc(21rem/16);
   transition: .2s ease;
   cursor: pointer;
-  font-weight: 400;
 }
 
 .btn:hover {
@@ -124,32 +126,37 @@
 .col--orange, .col--orange, .col--blue,
 .col--pink, .col--green, .col--violet, .col--yellow {
   background-repeat: no-repeat;
-  background-position: 90% -10%;
 }
 
 .col--orange {
   background-color: var(--red-work);
   background-image: url(images/icon-work.svg);
+  background-position: 90% -7%;
 }
 .col--blue {
   background-color: var(--blue-play);
   background-image: url(images/icon-play.svg);
+  background-position: 90% -3%;
 }
 .col--pink {
   background-color: var(--red-study);
   background-image: url(images/icon-study.svg);
+  background-position: 90% -3;
 }
 .col--green {
   background-color: var(--green-exercise);
   background-image: url(images/icon-exercise.svg);
+  background-position: 90% -3%;
 }
 .col--violet {
   background-color: var(--violet-social);
   background-image: url(images/icon-social.svg);
+  background-position: 92% -10%;
 }
 .col--yellow {
   background-color: var(--orange-self-care);
   background-image: url(images/icon-self-care.svg);
+  background-position: 91% -7%;
 }
 
 .container__col {

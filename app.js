@@ -28,7 +28,7 @@ const getData = async (how) => {
   //displaying previous time
   let prevItr = 0;
   previousS.forEach((previous) => {
-    previous.textContent = `Last week - ${dataJson[prevItr].timeframes[how].previous}hrs`;
+    previous.textContent = `Last Week - ${dataJson[prevItr].timeframes[how].previous}hrs`;
     prevItr++;
   });
 }
