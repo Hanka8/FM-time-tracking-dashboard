@@ -141,7 +141,7 @@
 .col--pink {
   background-color: var(--red-study);
   background-image: url(images/icon-study.svg);
-  background-position: 90% -3;
+  background-position: 90% -3%;
 }
 .col--green {
   background-color: var(--green-exercise);
